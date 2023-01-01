@@ -1,4 +1,4 @@
-.div1,
+/* .div1,
 .div2 {
   height: 100vh;
 }
@@ -8,7 +8,7 @@
 }
 
 .div2 {
-  /* background-color: salmon; */
+   background-color: salmon; 
 }
 
 .square {
@@ -25,4 +25,47 @@
 
 .red {
   background-color: red;
+} */
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  transition: all 600ms ease-in-out;
+  background-color: tan;
+  color: white;
+  height: 5rem;
+}
+
+ul {
+  margin: 0;
+  padding: 40px;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  margin-right: 60px;
+}
+
+.panel {
+  height: 100vh;
+  background-color: tan;
+}
+
+.nav-active {
+  background-color: white;
+  color: black;
+}
+
+p {
+  padding-top: 50px;
+  margin: 0 auto;
+  max-width: 1200px;
 }
